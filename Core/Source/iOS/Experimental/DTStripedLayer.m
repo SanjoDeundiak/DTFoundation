@@ -10,6 +10,7 @@
 #import "DTStripedLayerTile.h"
 #import "DTCoreGraphicsUtils.h"
 #import "UIColor+DTDebug.h"
+#import "DTLog.h"
 
 @interface DTStripedLayer () // private
 

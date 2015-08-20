@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		429200F71B85F9F90007988D /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 429200FB1B85F9F90007988D /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+		};
 		A7F4DFED147FBAC600F4059A /* Documentation */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = A7F4DFEE147FBAC600F4059A /* Build configuration list for PBXAggregateTarget "Documentation" */;
@@ -2704,6 +2714,9 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Cocoanetics;
 				TargetAttributes = {
+					429200F71B85F9F90007988D = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					A78381C21963F8D700AF09D3 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -2760,6 +2773,7 @@
 				A7917C76191A312600964D63 /* Unit Tests */,
 				A7EA07B71A2B2F6A00B61CCE /* DTFoundation (iOS) */,
 				A7EA07381A2B215200B61CCE /* DTFoundation (OSX) */,
+				429200F71B85F9F90007988D /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -3425,6 +3439,27 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		429200F81B85F9F90007988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		429200F91B85F9F90007988D /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Coverage;
+		};
+		429200FA1B85F9F90007988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -5044,6 +5079,15 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		429200FB1B85F9F90007988D /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429200F81B85F9F90007988D /* Debug */,
+				429200F91B85F9F90007988D /* Coverage */,
+				429200FA1B85F9F90007988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		A70B4CEF1486637E00873A4A /* Build configuration list for PBXNativeTarget "Static Library" */ = {
 			isa = XCConfigurationList;
